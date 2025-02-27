@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "AI聊天官方入口汇集",
+  "name": "AI聊天官方入口",
   "version": "0.0.1",
   "description": "将各大AI模型厂商的聊天界面汇集到一个插件中",
   "permissions": [
