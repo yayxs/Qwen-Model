@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>DeepSeek 聊天助手</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 16px;
+      width: 250px;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    h1 {
+      font-size: 18px;
+      margin-top: 0;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    
+    .model-card {
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    .model-card:hover {
+      background-color: #e9ecef;
+    }
+    
+    .model-card img {
+      width: 32px;
+      height: 32px;
+      margin-right: 12px;
+    }
+    
+    .model-card h3 {
+      margin: 0;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="model-card" id="deepseek">
+      <img src="icons/deepseek.png" alt="DeepSeek">
+      <h3>DeepSeek 聊天</h3>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 
