@@ -3,6 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('deepseek').addEventListener('click', function() {
     openModelTab('https://chat.deepseek.com/');
   });
+  
+  // Kimi卡片点击事件
+  document.getElementById('kimi').addEventListener('click', function() {
+    openModelTab('https://kimi.moonshot.cn/');
+  });
 });
 
 // 打开模型标签页
